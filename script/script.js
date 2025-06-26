@@ -1,8 +1,9 @@
 let usdCurr = 41.7;
 let eurCurr = 49.5;
 
-function currency(usd, eur) {
-    console.log(usdCurr * usd, eurCurr * eur)
+function convert(curr, amount) {
+    console.log(curr * amount)
 }
 
-currency(10,100)
+convert(usdCurr, 100)
+convert(eurCurr, 100)
